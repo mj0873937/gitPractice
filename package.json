@@ -1,0 +1,21 @@
+{
+  "name": "s1-nodejs",
+  "version": "1.0.0",
+  "description": "My first node project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "matthew jared",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "parcel": "^2.12.0"
+  }
+}
